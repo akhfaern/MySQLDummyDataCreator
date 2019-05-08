@@ -316,6 +316,7 @@ var
   FAlphabet: string;
   I: integer;
 begin
+  Result := '';
   FAlphabet := 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
   for I := 1 to FLen do
     Result := Result + FAlphabet[1 + Random(52)];
